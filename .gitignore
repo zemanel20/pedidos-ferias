@@ -1,0 +1,41 @@
+# Dependências
+node_modules
+
+# Output de build do SPFx
+dist
+lib
+lib-amd
+temp
+release
+solution
+sharepoint
+.heft
+*.sppkg
+
+# Código gerado pelo build (SASS e resources)
+*.scss.ts
+*.resx.ts
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Cobertura de testes
+coverage
+jest-output
+
+# Segredos e configuração local
+.env
+.env.*
+*.local.json
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.idea
+.vs
+*.suo
+.ntvs_analysis.dat
+bin
+obj

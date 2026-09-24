@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pedidos-client-side-solution",
+    "id": "8d1cbf3e-2291-4900-8bee-68e02d0205c4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "José Fernandes",
+      "websiteUrl": "https://github.com/zemanel20/Pedidos",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Gestão de pedidos de férias no SharePoint"
+      },
+      "longDescription": {
+        "default": "Web part que permite submeter pedidos de férias, listá-los com filtro por colaborador e aprovar, rejeitar ou apagar pedidos pendentes."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Pedidos de Férias",
+        "description": "Ativa a web part de pedidos de férias no site.",
+        "id": "260c3f15-f67e-4699-aab3-c281e95f42f2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pedidos.sppkg"
+  }
+}

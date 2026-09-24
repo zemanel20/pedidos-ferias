@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pedidos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pedidos/PedidosWebPart.js",
+          "manifest": "./src/webparts/pedidos/PedidosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PedidosWebPartStrings": "lib/webparts/pedidos/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
